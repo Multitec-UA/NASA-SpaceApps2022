@@ -27,9 +27,9 @@
  *  01. webfonts and iconfonts - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
-@import url("font-awesome/css/font-awesome.min.css");
-@import url("micons/micons.css");
-@import url("fonts.css");
+@import url('font-awesome/css/font-awesome.min.css');
+@import url('micons/micons.css');
+@import url('fonts.css');
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup.scss)
@@ -64,7 +64,7 @@ body {
 
 body {
   background: #f5f5f5;
-  font-family: "roboto-regular", sans-serif;
+  font-family: 'roboto-regular', sans-serif;
   font-size: 1.7rem;
   line-height: 3rem;
   color: #111111;
@@ -106,7 +106,7 @@ h6,
 .h04,
 .h05,
 .h06 {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -171,7 +171,7 @@ p img {
   margin: 0;
 }
 p.lead {
-  font-family: "roboto-light", sans-serif;
+  font-family: 'roboto-light', sans-serif;
   font-size: 2.4rem;
   line-height: 1.8;
   color: #373737;
@@ -193,11 +193,11 @@ b {
 }
 em,
 i {
-  font-family: "roboto-italic", sans-serif;
+  font-family: 'roboto-italic', sans-serif;
 }
 strong,
 b {
-  font-family: "roboto-bold", sans-serif;
+  font-family: 'roboto-bold', sans-serif;
 }
 small {
   font-size: 1.1rem;
@@ -209,7 +209,7 @@ blockquote {
   position: relative;
 }
 blockquote:before {
-  content: "\201C";
+  content: '\201C';
   font-size: 10rem;
   line-height: 0px;
   margin: 0;
@@ -220,20 +220,20 @@ blockquote:before {
   left: 0;
 }
 blockquote p {
-  font-family: "roboto-light", sans-serif;
+  font-family: 'roboto-light', sans-serif;
   padding: 0;
   font-size: 2.2rem;
   line-height: 1.75;
 }
 blockquote cite {
   display: block;
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   line-height: 1.714;
 }
 blockquote cite:before {
-  content: "\2014 \0020";
+  content: '\2014 \0020';
 }
 blockquote cite a,
 blockquote cite a:visited {
@@ -241,7 +241,7 @@ blockquote cite a:visited {
   border: none;
 }
 abbr {
-  font-family: "roboto-bold", sans-serif;
+  font-family: 'roboto-bold', sans-serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 0.05rem;
@@ -252,7 +252,7 @@ kbd,
 samp,
 code,
 pre {
-  font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  font-family: Consolas, 'Andale Mono', Courier, 'Courier New', monospace;
 }
 pre {
   padding: 2.4rem 3rem 3rem;
@@ -335,7 +335,7 @@ ul.disc li {
 }
 
 ul.disc li::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -434,7 +434,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "roboto-regular", sans-serif;
+  font-family: 'roboto-regular', sans-serif;
 }
 
 th,
@@ -446,7 +446,7 @@ td {
 
 th {
   color: #151515;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
 }
 
 td {
@@ -525,7 +525,7 @@ td:last-child {
 }
 
 #loader:before {
-  content: "";
+  content: '';
   border-top: 8px solid rgba(0, 0, 0, 0.2);
   border-right: 8px solid rgba(0, 0, 0, 0.2);
   border-bottom: 8px solid rgba(0, 0, 0, 0.2);
@@ -570,13 +570,13 @@ fieldset {
   border: none;
 }
 
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='text'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
 textarea,
 select {
   display: block;
@@ -586,7 +586,7 @@ select {
   outline: none;
   vertical-align: middle;
   color: rgba(0, 0, 0, 0.7);
-  font-family: "roboto-regular", sans-serif;
+  font-family: 'roboto-regular', sans-serif;
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
@@ -611,7 +611,7 @@ select {
   -o-appearance: none;
   appearance: none;
   text-indent: 0.01px;
-  text-overflow: "";
+  text-overflow: '';
   margin: 0;
   line-height: 3rem;
   vertical-align: middle;
@@ -627,8 +627,8 @@ select {
 }
 
 .ss-custom-select::after {
-  content: "\f0d7";
-  font-family: "FontAwesome";
+  content: '\f0d7';
+  font-family: 'FontAwesome';
   position: absolute;
   top: 50%;
   right: 1.5rem;
@@ -652,13 +652,13 @@ textarea {
   min-height: 25rem;
 }
 
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
+input[type='email']:focus,
+input[type='number']:focus,
+input[type='search']:focus,
+input[type='text']:focus,
+input[type='tel']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
 textarea:focus,
 select:focus {
   background: #151515;
@@ -667,27 +667,27 @@ select:focus {
 
 label,
 legend {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   font-size: 1.4rem;
   margin-bottom: 0.6rem;
   color: black;
   display: block;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
   display: inline;
 }
 
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "roboto-regular", sans-serif;
+  font-family: 'roboto-regular', sans-serif;
   line-height: inherit;
 }
 
-label > input[type="checkbox"],
-label > input[type="radio"] {
+label > input[type='checkbox'],
+label > input[type='radio'] {
   margin: 0;
   position: relative;
   top: 0.15rem;
@@ -723,11 +723,11 @@ label > input[type="radio"] {
 .button,
 a.button,
 button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
   display: inline-block;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'montserrat-regular', sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -752,14 +752,14 @@ input[type="button"] {
 .button:hover,
 a.button:hover,
 button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
+input[type='submit']:hover,
+input[type='reset']:hover,
+input[type='button']:hover,
 .button:focus,
 button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
+input[type='submit']:focus,
+input[type='reset']:focus,
+input[type='button']:focus {
   background: #bebebe;
   color: #000000;
   outline: 0;
@@ -768,9 +768,9 @@ input[type="button"]:focus {
 .button.button-primary,
 a.button.button-primary,
 button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
+input[type='submit'].button-primary,
+input[type='reset'].button-primary,
+input[type='button'].button-primary {
   background: #151515;
   color: #ffffff;
 }
@@ -778,14 +778,14 @@ input[type="button"].button-primary {
 .button.button-primary:hover,
 a.button.button-primary:hover,
 button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
+input[type='submit'].button-primary:hover,
+input[type='reset'].button-primary:hover,
+input[type='button'].button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
+input[type='submit'].button-primary:focus,
+input[type='reset'].button-primary:focus,
+input[type='button'].button-primary:focus {
   background: #000000;
 }
 
@@ -850,7 +850,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "roboto-regular", sans-serif;
+  font-family: 'roboto-regular', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -891,7 +891,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 1.5rem 0.6rem 0 0;
   font-size: 8.4rem;
-  font-family: "roboto-bold", sans-serif;
+  font-family: 'roboto-bold', sans-serif;
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
@@ -908,20 +908,20 @@ input::-moz-focus-inner {
 
 .lining dt + dt:before,
 .lining dd + dt:before {
-  content: "\A";
+  content: '\A';
   white-space: pre;
 }
 
 .lining dd + dd:before {
-  content: ", ";
+  content: ', ';
 }
 
 .lining dd + dd:before {
-  content: ", ";
+  content: ', ';
 }
 
 .lining dd:before {
-  content: ": ";
+  content: ': ';
   margin-left: -0.2em;
 }
 
@@ -933,7 +933,7 @@ input::-moz-focus-inner {
 }
 
 .dictionary-style dt + dt:before {
-  content: ", ";
+  content: ', ';
   margin-left: -0.2em;
 }
 
@@ -943,7 +943,7 @@ input::-moz-focus-inner {
 }
 
 .dictionary-style dd:before {
-  content: counter(definitions, decimal) ". ";
+  content: counter(definitions, decimal) '. ';
 }
 
 /** 
@@ -973,13 +973,13 @@ input::-moz-focus-inner {
 }
 
 .pull-quote:before {
-  content: "\201C";
+  content: '\201C';
   top: 3.9rem;
   left: 0;
 }
 
 .pull-quote:after {
-  content: "\201D";
+  content: '\201D';
   bottom: -4.8rem;
   right: 0;
 }
@@ -1025,7 +1025,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "roboto-bold", sans-serif;
+  font-family: 'roboto-bold', sans-serif;
   border: none;
   color: #333333;
 }
@@ -1038,7 +1038,7 @@ input::-moz-focus-inner {
   display: block;
   margin: 0.6rem 0 0 0;
   font-size: 1.4rem;
-  font-family: "roboto-regular", sans-serif;
+  font-family: 'roboto-regular', sans-serif;
   color: #888888;
 }
 
@@ -1057,7 +1057,7 @@ input::-moz-focus-inner {
 }
 
 .pagination .page-numbers {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   font-size: 15px;
   line-height: 24px;
   display: inline-block;
@@ -1131,7 +1131,7 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-thumb .thumb-link::before {
-  content: "";
+  content: '';
   display: block;
   background: rgba(0, 0, 0, 0.8);
   opacity: 0;
@@ -1150,7 +1150,7 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-thumb .thumb-link::after {
-  content: "...";
+  content: '...';
   font-family: georgia, serif;
   font-size: 4.5rem;
   z-index: 1;
@@ -1213,7 +1213,7 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-header .entry-meta {
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1.2rem;
 }
@@ -1223,7 +1223,7 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-header .cat-links a::after {
-  content: ", ";
+  content: ', ';
 }
 
 .bricks-wrapper .entry-header .cat-links a:last-child::after {
@@ -1293,7 +1293,7 @@ input::-moz-focus-inner {
 }
 
 .featured-post-slide .entry-meta {
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   margin: -3rem 0 0.9rem 0;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.412;
@@ -1316,7 +1316,7 @@ input::-moz-focus-inner {
 }
 
 .featured-post-slide .slide-title {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   font-size: 3.8rem;
   line-height: 1.421;
   margin-bottom: 3rem;
@@ -1456,8 +1456,8 @@ input::-moz-focus-inner {
 
 .format-quote .entry-thumb::before,
 .format-link .entry-thumb::before {
-  content: "\e920";
-  font-family: "icomoon";
+  content: '\e920';
+  font-family: 'icomoon';
   font-size: 3rem;
   color: #ccc;
   position: absolute;
@@ -1482,7 +1482,7 @@ input::-moz-focus-inner {
 
 .format-quote blockquote p,
 .format-link .link-wrap p {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   padding: 6rem 0 0 0;
   font-size: 2.2rem;
   line-height: 1.636;
@@ -1491,7 +1491,7 @@ input::-moz-focus-inner {
 .format-quote cite,
 .format-link cite {
   display: block;
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.4;
@@ -1510,7 +1510,7 @@ input::-moz-focus-inner {
 }
 
 .format-link .entry-thumb::before {
-  content: "\e96b";
+  content: '\e96b';
   font-size: 3.6rem;
   color: #cccccc;
 }
@@ -1545,11 +1545,11 @@ input::-moz-focus-inner {
 }
 
 .format-video .entry-thumb a::before {
-  content: "\e998";
+  content: '\e998';
   position: absolute;
   top: 50%;
   left: 50%;
-  font-family: "icomoon";
+  font-family: 'icomoon';
   font-size: 8rem;
   border-radius: 50%;
   color: white;
@@ -1599,16 +1599,23 @@ header .logo {
   z-index: 601;
 }
 
+.center-image {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 header .logo a {
   display: block;
   margin: 0;
+  margin-top: -10px;
   padding: 0;
   outline: 0;
   border: none;
-  width: 60px;
-  height: 60px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 60px 60px;
+  width: 90px;
+  height: 90px;
+  background: url('../images/logo.png') no-repeat center;
+  background-size: 90px 90px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1694,7 +1701,7 @@ header .logo a {
   display: table;
   float: right;
   padding-right: 85px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'montserrat-regular', sans-serif;
   font-size: 15px;
   height: 78px;
 }
@@ -1735,7 +1742,7 @@ header .logo a {
 .main-navigation li.current > a {
   border-bottom: 2px solid #151515;
   color: #000000;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
 }
 
 .main-navigation ul {
@@ -1776,7 +1783,7 @@ header .logo a {
 .main-navigation ul li a {
   white-space: nowrap;
   padding: 16.5px 25px;
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   font-size: 14px;
   line-height: 15px;
   display: block;
@@ -1858,7 +1865,7 @@ header .logo a {
 
   .menu-toggle span::before,
   .menu-toggle span::after {
-    content: "";
+    content: '';
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1969,11 +1976,11 @@ header .logo a {
   }
 
   .main-navigation li.has-children > a:after {
-    content: "\f067";
+    content: '\f067';
     display: inline;
     padding-left: 10px;
     color: #000000;
-    font-family: "fontAwesome";
+    font-family: 'fontAwesome';
     font-size: 12px;
     height: 20px;
     width: 20px;
@@ -1992,7 +1999,7 @@ header .logo a {
   }
 
   .main-navigation li.has-children:hover > a:after {
-    content: "\f068";
+    content: '\f068';
   }
 
   .main-navigation li.has-children ul {
@@ -2063,7 +2070,7 @@ header .logo a {
 }
 
 .search-wrap .search-form::after {
-  content: "Press Enter to begin your search.";
+  content: 'Press Enter to begin your search.';
   display: block;
   letter-spacing: 0.6px;
   font-size: 1.6rem;
@@ -2102,13 +2109,13 @@ header .logo a {
   opacity: 1;
 }
 
-.search-wrap input[type="search"] {
+.search-wrap input[type='search'] {
   background-color: transparent;
   border: none;
   color: #000;
   height: auto;
   width: 100%;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   font-size: 6.3rem;
   line-height: 1.523;
   letter-spacing: 0.02rem;
@@ -2119,11 +2126,11 @@ header .logo a {
   margin: 0 auto;
 }
 
-.search-wrap input[type="search"]:focus {
+.search-wrap input[type='search']:focus {
   outline: none;
 }
 
-.search-wrap .search-form input[type="submit"] {
+.search-wrap .search-form input[type='submit'] {
   display: none;
 }
 
@@ -2142,7 +2149,7 @@ header .logo a {
 
 .search-wrap .close-btn::before,
 .search-wrap .close-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   display: inline-block;
   width: 2px;
@@ -2177,19 +2184,19 @@ header .logo a {
     font-size: 1.5rem;
   }
 
-  .search-wrap input[type="search"] {
+  .search-wrap input[type='search'] {
     max-width: none;
     width: 80%;
     font-size: 4.6rem;
   }
 }
 @media only screen and (max-width: 600px) {
-  .search-wrap input[type="search"] {
+  .search-wrap input[type='search'] {
     font-size: 3.2rem;
   }
 }
 @media only screen and (max-width: 400px) {
-  .search-wrap input[type="search"] {
+  .search-wrap input[type='search'] {
     font-size: 2.4rem;
   }
 }
@@ -2344,7 +2351,7 @@ header .logo a {
 }
 
 #bricks.with-top-sep::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: 50%;
@@ -2357,7 +2364,7 @@ header .logo a {
 
 .bricks-wrapper:before,
 .bricks-wrapper:after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -2445,8 +2452,14 @@ header .logo a {
  *  13. footer - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+.footer-hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
 footer {
-  padding-top: 9rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
   font-size: 1.5rem;
   color: #8e8e8e;
@@ -2456,7 +2469,7 @@ footer a:visited {
   color: #000000;
 }
 
-footer [class*="col-"] {
+footer [class*='col-'] {
   margin-bottom: 1.2rem;
 }
 
@@ -2501,7 +2514,7 @@ footer ul li {
   padding: 0;
 }
 
-.footer-main .footer-subscribe .subscribe-form input[type="email"] {
+.footer-main .footer-subscribe .subscribe-form input[type='email'] {
   padding: 0.6rem 2rem;
   background: rgba(0, 0, 0, 0.1);
   border: none;
@@ -2510,12 +2523,12 @@ footer ul li {
   margin-bottom: 1.8rem;
 }
 
-.footer-main .footer-subscribe .subscribe-form input[type="submit"] {
+.footer-main .footer-subscribe .subscribe-form input[type='submit'] {
   display: none;
 }
 
 .footer-main .footer-subscribe .subscribe-form .subscribe-message {
-  font-family: "roboto-bold", sans-serif;
+  font-family: 'roboto-bold', sans-serif;
   font-size: 1.4rem;
   color: #000000;
 }
@@ -2535,7 +2548,7 @@ footer ul li {
 }
 
 .footer-bottom .copyright span::after {
-  content: "|";
+  content: '|';
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
   color: rgba(0, 0, 0, 0.2);
@@ -2563,7 +2576,7 @@ footer ul li {
     text-align: center;
   }
 
-  .footer-main .subscribe-form form input[type="email"] {
+  .footer-main .subscribe-form form input[type='email'] {
     margin-left: auto !important;
     margin-right: auto !important;
     text-align: center;
@@ -2675,7 +2688,7 @@ footer ul li {
 /* single post - (_blog.scss) 
  * ------------------------------------------------------------------- */
 .blog-single .entry-meta {
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   font-size: 1.5rem;
   list-style: none;
   margin-left: 0;
@@ -2705,7 +2718,7 @@ footer ul li {
 }
 
 .blog-single .entry-meta .cat a::after {
-  content: ",";
+  content: ',';
 }
 
 .blog-single .entry-meta .cat a:last-child::after {
@@ -2720,7 +2733,7 @@ footer ul li {
   color: #151515;
   margin-right: 1rem;
   font-size: 1.5rem;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
 }
 
 .blog-single .tags a {
@@ -2786,7 +2799,7 @@ footer ul li {
 .blog-single .pagenav a {
   font-size: 2.1rem;
   line-height: 1.571;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   border: none;
   color: #000000;
 }
@@ -2794,7 +2807,7 @@ footer ul li {
 .blog-single .pagenav a span {
   font-size: 1.5rem;
   line-height: 3rem;
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   display: block;
   margin-bottom: 1.5rem;
   color: #999999;
@@ -2896,14 +2909,14 @@ footer ul li {
 }
 
 .commentlist li .comment-info cite {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   font-size: 1.8rem;
   font-style: normal;
   color: #151515;
 }
 
 .commentlist li .comment-info .comment-meta {
-  font-family: "muli-regular", sans-serif;
+  font-family: 'muli-regular', sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
   display: block;
@@ -2911,7 +2924,7 @@ footer ul li {
 }
 
 .commentlist li .comment-info .comment-meta .reply {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'montserrat-bold', sans-serif;
   color: #151515;
 }
 
@@ -3024,7 +3037,7 @@ footer ul li {
 .format-audio .mejs-controls,
 .format-audio .mejs-mediaelement,
 .format-audio .mejs-container {
-  background: url("") !important;
+  background: url('') !important;
   background-color: rgba(17, 17, 17, 0.5) !important;
   height: 42px;
 }
@@ -3061,25 +3074,25 @@ footer ul li {
 
 .format-audio .mejs-controls .mejs-button button,
 .format-audio .no-svg .mejs-controls .mejs-button button {
-  background: transparent url("../images/mejs/play.png") no-repeat center;
+  background: transparent url('../images/mejs/play.png') no-repeat center;
   background-size: 14px;
 }
 
 .format-audio .mejs-controls .mejs-pause button,
 .format-audio .no-svg .mejs-controls .mejs-pause button {
-  background: transparent url("../images/mejs/pause.png") no-repeat center;
+  background: transparent url('../images/mejs/pause.png') no-repeat center;
   background-size: 14px;
 }
 
 .format-audio .mejs-controls .mejs-mute button,
 .format-audio .no-svg .mejs-controls .mejs-mute button {
-  background: transparent url("../images/mejs/speaker-on.png") no-repeat center;
+  background: transparent url('../images/mejs/speaker-on.png') no-repeat center;
   background-size: 16px;
 }
 
 .format-audio .mejs-controls .mejs-unmute button,
 .format-audio .no-svg .mejs-controls .mejs-unmute button {
-  background: transparent url("../images/mejs/speaker-mute.png") no-repeat
+  background: transparent url('../images/mejs/speaker-mute.png') no-repeat
     center;
   background-size: 16px;
 }
@@ -3229,9 +3242,9 @@ footer ul li {
   display: block;
   color: white;
   text-align: center;
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
   font-size: 14px;
-  content: "\f067";
+  content: '\f067';
   height: 32px;
   width: 32px;
   line-height: 32px;
@@ -3243,11 +3256,11 @@ footer ul li {
 }
 
 #map-wrap #map-zoom-in::before {
-  content: "\f067";
+  content: '\f067';
 }
 
 #map-wrap #map-zoom-out::before {
-  content: "\f068";
+  content: '\f068';
 }
 
 #map-wrap #map-zoom-in:hover::before,
